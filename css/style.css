@@ -1,2 +1,7 @@
 @import "reset.css";
-@import "";
+
+/* common */
+@import "common/text.css";
+@import "common/icon.css";
+
+@import "common/header.css";
