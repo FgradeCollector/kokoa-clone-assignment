@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.background {
+    width: 528px;
+    height: 1000vh;
+    background-color: white;
+}

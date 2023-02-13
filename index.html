@@ -7,20 +7,46 @@
     <link href="css/style.css" rel="stylesheet" />
 </head>
 <body>
-    <header class="header-status">
-        <div class="header-status__wifi">
-            <span class="text-status">No Service</span>
-            <i class="header-status__icon fa-solid fa-wifi"></i>
+    <div class="background">
+        <div class="top-status">
+            <div class="top-status__wifi">
+                <span class="top-status__text">No Service</span>
+                <i class="icon--top-status fa-solid fa-wifi"></i>
+            </div>
+            <div class="top-status__time">
+                <span class="top-status__text--thick">18:43</span>
+            </div>
+            <div class="top-status__battery">
+                <span class="top-status__text">100%</span>
+                <i class="icon--top-status--no-margin fa-solid fa-battery-full"></i>
+            </div>
         </div>
-        <div class="header-status__time">
-            <span class="text-status--thick">18:43</span>
+
+        <header class="index-title">
+            <span class="index-title__title text-2 text--medium">
+                Welcome to KakaoTalk
+            </span>
+            <p class="index-title__explain text-4 color3">
+                If you have a Kakao Account, log in with your email or phone number.
+            </p>
+        </header>
+
+        <form action="Friends.html" method="get" class="index-log-in-box">
+            <div class="index-log-in-box__info-box">
+                <input class="index-log-in-box__info" name="username" required type="text" placeholder="Email or phone number"/>
+                <input class="index-log-in-box__info" name="password" required type="password" placeholder="Password" />
+            </div>
+            <div class="index-log-in-box__submit-box">
+                <input class="index-log-in-box__submit-btn" type="submit" value="Log In" />
+                <input class="index-log-in-box__submit-btn" type="submit" value="Sign Up" />
+            </div>
+        </form>
+
+        <div class="index-link">
+            <a href="#">Find Kakao Account or Password</a>
         </div>
-        <div class="header-status__battery">
-            <span class="text-percentage">100%</span>
-            <i class="header-status__icon fa-solid fa-battery-full fa-xl"></i>
-            <i class="header-status__icon-c fa-solid fa-bolt fa-xs"></i>
-        </div>
-    </header>
+
+    </div>
     
     <script src="https://kit.fontawesome.com/8684367ecc.js" crossorigin="anonymous">
     </script>

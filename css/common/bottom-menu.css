@@ -1,0 +1,22 @@
+.bottom-menu {
+    width: inherit;
+    height: 70px;
+    position: fixed;
+    bottom: 0px;
+    background-color: var(--bottom-menu-color);
+    border-top: 1px solid var(--color2);
+}
+
+.bottom-menu__list {
+    width:inherit;
+    height: inherit;
+    padding: 0px 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom-menu__icon-box a{
+    text-decoration: none;
+    color: var(--color1);
+}

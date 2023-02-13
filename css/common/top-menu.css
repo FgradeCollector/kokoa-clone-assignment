@@ -1,0 +1,16 @@
+.top-menu {
+    width: inherit;
+    height: 60px;
+    padding: 30px 10px 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 30px;
+    background-color: white;
+}
+
+.top-menu__title {
+    font-size: 24pt;
+    font-weight: 700;
+}

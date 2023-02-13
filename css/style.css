@@ -1,7 +1,15 @@
 @import "reset.css";
+@import "variables.css";
+
+/* elements */
+@import "elements/background.css";
+@import "elements/icon.css";
+@import "elements/img.css";
 
 /* common */
-@import "common/text.css";
-@import "common/icon.css";
+@import "common/top-status.css";
+@import "common/top-menu.css";
+@import "common/bottom-menu.css";
 
-@import "common/header.css";
+/* individual */
+@import "individual/index.css";

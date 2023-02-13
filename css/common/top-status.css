@@ -1,12 +1,14 @@
-.header-status {
-    width: 100%;
+.top-status {
+    width: inherit;
     height: 30px;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
 }
 
-.header-status__wifi {
+.top-status__wifi {
     width: 25%;
     padding-left: 5px;
     display: flex;
@@ -14,7 +16,19 @@
     align-items: center;
 }
 
-.header-status__battery {
+.top-status__text {
+    font-size: 13pt;
+    margin: 0px 5px;
+    color: var(--color1);
+}
+
+.top-status__text--thick {
+    font-size: 13pt;
+    color: var(--color1);
+    font-weight: 600;
+}
+
+.top-status__battery {
     width: 25%;
     padding-right: 5px;
     display: flex;
@@ -22,7 +36,7 @@
     align-items: center;
 }
 
-.header-status__time {
+.top-status__time {
     width: 50%;
     display: flex;
     justify-content: center;

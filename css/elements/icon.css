@@ -1,0 +1,15 @@
+.icon--top-status {
+    margin: 0px 5px;
+}
+
+.icon--top-status--no-margin {
+    margin: none;
+}
+
+.icon--top-menu {
+    margin: 0px 15px;
+}
+
+.icon--bottom-menu--off {
+    color: var(--color3);
+}
